@@ -66,8 +66,8 @@ body {
 }
 
 .header-block-main-nav__link{
-  margin-right: 28px;
   padding-bottom: -1px;
+  margin-right: 28px;
 
   line-height: auto;
   font-weight: 700;
@@ -102,7 +102,7 @@ body {
 .enter-btn{
   position: relative;
   margin-left: 15px;
-  margin-right: 25px;
+  margin-right: 40px;
   width: 64px;
   background-image: url('../img/enter.svg');
   background-repeat: no-repeat;
@@ -111,7 +111,6 @@ body {
 
 .basket-btn{
   position: relative;
-  margin-right: 15px;
   width: 89px;
   background-image: url('../img/basket.svg');
   background-repeat: no-repeat;
