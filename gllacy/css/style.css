@@ -103,18 +103,18 @@ body {
   position: relative;
   margin-left: 15px;
   margin-right: 40px;
-  width: 64px;
+  width: 62px;
   background-image: url('../img/enter.svg');
   background-repeat: no-repeat;
-  background-position: 2px 50%;
+  background-position: 0% 50%;
 }
 
 .basket-btn{
   position: relative;
-  width: 89px;
+  width: 87px;
   background-image: url('../img/basket.svg');
   background-repeat: no-repeat;
-  background-position: 2px 50%;
+  background-position: 0% 50%;
 }
 
 .enter-btn,
