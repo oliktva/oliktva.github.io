@@ -1,0 +1,77 @@
+/* Общее */
+
+body {
+  width: 100%;
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: regular;
+  font-family: 'Roboto', 'Arial', sans-serif;
+
+  color: #000;
+  background-color: #849d8f;
+}
+
+/* Разметка */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  /* Блочная модель */
+  max-width: 1200px;
+  min-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-block-logo{
+  float: left;
+
+  margin-right: 30px;
+  margin-top: 9px;
+  margin-left: 1.75%;
+}
+
+.header-block-main-nav{
+  float: left;
+
+  width: 58.58333%;
+  margin-top: 32px;
+}
+
+.header-block-user-nav{
+  float: right;
+
+  width: 265px;
+  margin-top: 23px;
+}
+
+.header-block-main-nav ul,
+.header-block-user-nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.header-block-main-nav__item,
+.header-block-user-nav__item{
+  display: inline-block;
+  vertical-align: top;
+
+  list-style: none;
+}
+
+.header-block-main-nav__link{
+  margin-right: 28px;
+  padding-bottom: -1px;
+
+  line-height: auto;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
