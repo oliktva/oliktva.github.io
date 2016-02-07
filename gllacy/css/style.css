@@ -101,8 +101,8 @@ body {
 
 .enter-btn{
   position: relative;
-  margin-left: 16px;
-  margin-right: 26px;
+  margin-left: 15px;
+  margin-right: 25px;
   width: 64px;
   background-image: url('../img/enter.svg');
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
 
 .basket-btn{
   position: relative;
-  margin-right: 16px;
+  margin-right: 15px;
   width: 89px;
   background-image: url('../img/basket.svg');
   background-repeat: no-repeat;
@@ -144,12 +144,12 @@ body {
 
 .basket-btn::before,
 .enter-btn::before{
-  left: -16px;
+  left: -15px;
   top: 0;
 }
 
 .enter-btn::after,
 .basket-btn::after{
-  right: -16px;
+  right: -15px;
   top: 0;
 }
