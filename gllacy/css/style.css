@@ -119,12 +119,13 @@ body {
 
 .enter-btn,
 .basket-btn{
-  padding-left: 30px;
+  padding-left: 29px;
 
   color: #fff;
   font-family:  'Roboto', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  vertical-align: middle;
 }
 
 .basket-btn::before,
