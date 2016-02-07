@@ -40,7 +40,7 @@ body {
   float: left;
 
   width: 58.58333%;
-  margin-top: 32px;
+  margin-top: 29px;
 }
 
 .header-block-user-nav{
@@ -48,6 +48,7 @@ body {
 
   width: 265px;
   margin-top: 23px;
+  margin-right: 27px;
 }
 
 .header-block-main-nav ul,
@@ -69,9 +70,87 @@ body {
   padding-bottom: -1px;
 
   line-height: auto;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   text-decoration: none;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn{
+  box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+
+  border: none;
+  box-shadow: none;
+}
+
+.header-block-user-nav__btn{
+  background-color: #9db1a5;
+}
+
+.search-btn{
+  margin-right: 10px;
+  background-image: url('../img/search.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  border-radius: 50%;
+}
+
+.enter-btn{
+  position: relative;
+  margin-left: 16px;
+  margin-right: 38px;
+  width: 67px;
+  background-image: url('../img/enter.svg');
+  background-repeat: no-repeat;
+  background-position: 2px 50%;
+}
+
+.basket-btn{
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 91px;
+  background-image: url('../img/basket.svg');
+  background-repeat: no-repeat;
+  background-position: 2px 50%;
+}
+
+.enter-btn,
+.basket-btn{
+  padding-left: 30px;
+
+  color: #fff;
+  font-family:  'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.basket-btn::before,
+.enter-btn::before,
+.enter-btn::after,
+.basket-btn::after{
+  content: '';
+  position: absolute;
+
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: #9db1a5;
+}
+
+.basket-btn::before,
+.enter-btn::before{
+  left: -16px;
+  top: 0;
+}
+
+.enter-btn::after,
+.basket-btn::after{
+  right: -16px;
+  top: 0;
 }
