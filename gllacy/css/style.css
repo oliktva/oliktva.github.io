@@ -104,7 +104,8 @@ body {
 .enter-btn{
   position: relative;
   margin-left: 16px;
-  margin-right: 40px;
+  margin-right: 36px;
+  padding-left: 26px;
   width: 60px;
   background-image: url('../img/enter.svg');
   background-repeat: no-repeat;
@@ -113,6 +114,7 @@ body {
 
 .basket-btn{
   position: relative;
+  padding-left: 18px;
   width: 85px;
   background-image: url('../img/basket.svg');
   background-repeat: no-repeat;
@@ -121,8 +123,6 @@ body {
 
 .enter-btn,
 .basket-btn{
-  padding-left: 29px;
-
   color: #fff;
   font-family:  'Roboto', 'Arial', sans-serif;
   font-weight: 500;
