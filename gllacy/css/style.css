@@ -287,8 +287,6 @@ body {
   position: absolute;
   bottom: -96px;
   left: 50%;
-
-  width: 216px;
   height: 64px;
   margin-left: -106px;
 
@@ -399,6 +397,7 @@ body {
   height: 46px;
 
   font-size: 18px;
+  line-height: 18px;
 }
 
 .main-block-action__raspberry button{
