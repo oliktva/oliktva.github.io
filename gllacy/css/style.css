@@ -358,8 +358,9 @@ body {
 /*////////////////////////////////ACTION BLOCK/////////////////////////////////*/
 .main-block-action{
   position: relative;
-  min-height: 270px;
+  min-height: 230px;
   padding: 0 27px;
+  padding-bottom: 40px;
   margin-top: 570px;
   z-index: 10;
 }
@@ -435,6 +436,7 @@ body {
 /*////////////////PRODUCTS///////////////////*/
 .main-block-product {
   width: 100%;
+  min-height: 350px;
   padding: 0 27px;
 }
 
@@ -444,7 +446,6 @@ body {
 
   box-sizing: border-box;
   width: 267px;
-  height: 330px;
 }
 
 .main-block-product__item:not(:nth-child(4n)){
