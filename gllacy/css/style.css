@@ -395,12 +395,13 @@ body {
 }
 
 .main-block-action__raspberry button{
-  margin-left: 390px;
+  margin-left: 394px;
   width: auto;
 }
 
 .main-block-action__chocolate button{
   margin-left: 373px;
+  margin-top: 33px;
   width: auto;
 }
 
