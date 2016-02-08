@@ -26,8 +26,6 @@ body {
   min-width: 900px;
   height: 100%;
   margin: 0 auto;
-
-  border: 1px solid black;
 }
 
 .header-block-logo{
@@ -135,6 +133,7 @@ body {
 .enter-btn::after,
 .basket-btn::after{
   content: '';
+  display: block;
   position: absolute;
 
   height: 32px;
@@ -154,4 +153,36 @@ body {
 .basket-btn::after{
   right: -16px;
   top: 0;
+}
+
+.header-block-info span{
+  position: absolute;
+  right: 0;
+}
+
+.header-block-info span:first-of-type{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+}
+
+.header-block-info span:last-of-type{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+}
+
+.header-block{
+  position: relative;
+}
+
+.header-block-info{
+  position: absolute;
+  top: 71px;
+  right: 0;
+
+  width: 170px;
+  height: 50px;
 }
