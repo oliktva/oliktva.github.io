@@ -228,18 +228,22 @@ body {
 /*___________________________________________________________________________________________________________*/
 /*Main index*/
 .main-block-slider{
-  position: relative;
-  height: 550px;
-  width: 100%;
+  position: absolute;
+  height: 881px;
+  width: 1200px;
+  top: 0;
 }
 
 .main-block-slider-inner{
   width: 100%;
-  height: 550px;
+  height: 100%;
+  overflow: hidden;
+  background: url('../img/light-1-1200.png') no-repeat 0 0;
 }
 
 .main-block-slider-slides{
   width: 300%;
+  transition: transform .8s ease;
 }
 
 .main-block-slider-slides__item{
@@ -261,9 +265,9 @@ body {
 .main-block-slider-slides__item img{
   display: block;
   position: absolute;
-  top: -289px;
+  top: -260px;
   left: 50%;
-  margin-left: -325px;
+  margin-left: -330px;
   z-index: -2;
 
   width: auto;
@@ -307,7 +311,7 @@ body {
 
 .main-block-slider-controls{
   position: absolute;
-  bottom: 43px;
+  top:550px;
   left: 27px;
   width: 87px;
 }
@@ -328,4 +332,16 @@ body {
 #radiobtn-2:checked ~ .main-block-slider-controls label[for="radiobtn-2"],
 #radiobtn-3:checked ~ .main-block-slider-controls label[for="radiobtn-3"] {
   background-color: #fff;
+}
+
+#radiobtn-1:checked ~ .main-block-slider-inner .main-block-slider-slides{
+  transform: translate(0);
+}
+
+#radiobtn-2:checked ~ .main-block-slider-inner .main-block-slider-slides{
+  transform: translate(-1200px);
+}
+
+#radiobtn-3:checked ~ .main-block-slider-inner .main-block-slider-slides{
+  transform: translate(-2400px);
 }
