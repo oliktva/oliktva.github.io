@@ -432,3 +432,21 @@ body {
 .main-block-action__chocolate{
   background: url('../img/chocolate-bg.png') no-repeat;
 }
+
+/*////////////////PRODUCTS///////////////////*/
+.main-block-product {
+  padding: 0 27px;
+}
+
+.main-block-product__item{
+  display: inline-block;
+  vertical-align: top;
+
+  box-sizing: border-box;
+  width: 267px;
+  height: 330px;
+}
+
+.main-block-product__item:not(:nth-child(4n)){
+  margin-right: 26px;
+}
