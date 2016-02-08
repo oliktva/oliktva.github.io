@@ -441,6 +441,7 @@ body {
 }
 
 .main-block-product__item{
+  position: relative;
   display: inline-block;
   vertical-align: top;
 
@@ -453,18 +454,47 @@ body {
 }
 
 .main-block-product__descriprion{
+  display: block;
   width: 100%;
   margin: 0;
+  margin-top: 10px;
 
   color: #fff;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   text-align: center;
+  text-decoration: none;
 }
 
 .main-block-product__descriprion span{
   width: 100%;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-block-product__item > span:first-of-type{
+  position: absolute;
+  left: 0;
+  top: 215px;
+
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-block-product__item > span b{
+  font-size: 45px;
+}
+
+.main-block-product__item:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+
+  width: 61px;
+  height: 61px;
+  background: url('../img/hit.png') no-repeat 0 0;
 }
