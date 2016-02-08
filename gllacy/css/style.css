@@ -355,7 +355,7 @@ body {
   position: relative;
   min-height: 270px;
   padding: 0 27px;
-  margin-top: 550px;
+  margin-top: 570px;
   padding-bottom: 40px;
   z-index: 10;
 }
@@ -364,7 +364,10 @@ body {
   float: left;
   width: 560px;
   height: 230px;
-  margin-right: 13px;
+}
+
+.main-block-action__item:nth-child(2n+1){
+  margin-right: 26px;
 }
 
 .main-block-action__item h2{
@@ -385,10 +388,12 @@ body {
 
 .main-block-action__item button{
   height: 46px;
-  width: 122px;
+  width: 134px;
 
-  margin-left: 400px;
+  margin-left: 390px;
   margin-top: 40px;
+
+  font-size: 18px;
 }
 
 .main-block-action__item button::before,
@@ -396,6 +401,14 @@ body {
   height: 46px;
   width: 46px;
   z-index: -1;
+}
+
+.main-block-action__item button::before{
+  left: -23px;
+}
+
+.main-block-action__item button::after{
+  right: -23px;
 }
 
 .main-block-action__raspberry{
