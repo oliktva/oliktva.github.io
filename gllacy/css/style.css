@@ -227,6 +227,7 @@ body {
 
 /*Main index*/
 .main-block-slider{
+  position: relative;
   height: 550px;
   width: 100%;
 }
@@ -270,7 +271,7 @@ body {
 
 .main-block-slider-slides__item button{
   position: absolute;
-  bottom: -103px;
+  bottom: -96px;
   left: 50%;
 
   width: 216px;
@@ -304,6 +305,9 @@ body {
 }
 
 .main-block-slider-controls{
+  position: absolute;
+  bottom: 0;
+  left: 27px;
   width: 87px;
 }
 
