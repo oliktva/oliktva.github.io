@@ -388,12 +388,20 @@ body {
 
 .main-block-action__item button{
   height: 46px;
-  width: 134px;
 
-  margin-left: 390px;
   margin-top: 40px;
 
   font-size: 18px;
+}
+
+.main-block-action__raspberry button{
+  margin-left: 390px;
+  width: auto;
+}
+
+.main-block-action__chocolate button{
+  margin-left: 373px;
+  width: auto;
 }
 
 .main-block-action__item button::before,
