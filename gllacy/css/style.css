@@ -360,7 +360,7 @@ body {
   position: relative;
   min-height: 230px;
   padding: 0 27px;
-  padding-bottom: 40px;
+  padding-bottom: 37px;
   margin-top: 570px;
   z-index: 10;
 }
@@ -449,5 +449,22 @@ body {
 }
 
 .main-block-product__item:not(:nth-child(4n)){
-  margin-right: 26px;
+  margin-right: 22px;
+}
+
+.main-block-product__descriprion{
+  width: 100%;
+  margin: 0;
+
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-block-product__descriprion span{
+  width: 100%;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
