@@ -306,7 +306,7 @@ body {
 
 .main-block-slider-controls{
   position: absolute;
-  bottom: 0;
+  bottom: 43px;
   left: 27px;
   width: 87px;
 }
