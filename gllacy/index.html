@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <title>GllacyShop - ваш любимый магазин мороженного!</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='css/style.css'>
   </head>
   <body>
@@ -44,6 +44,29 @@
     </header>
     <main class='main-block container'>
       <section class='main-block-slider'>
+        <div class="main-block-slider-inner">
+        <span>
+          Крем-брюле и пломбир<br>
+          с малиновым джемом
+        </span>
+      <!--  <span>
+          Крем-брюле и пломбир<br>
+          с малиновым джемом
+        </span>
+        <span>
+          Крем-брюле и пломбир<br>
+          с малиновым джемом
+        </span>-->
+        </div>
+        <input type="radio" id="radiobtn-1" name="toggle" checked>
+        <input type="radio" id="radiobtn-2" name="toggle">
+        <input type="radio" id="radiobtn-3" name="toggle">
+        <div class="main-block-slider-controls">
+          <label for="radiobtn-1"></label>
+          <label for="radiobtn-2"></label>
+          <label for="radiobtn-3"></label>
+        </div>
+        <button  class='main-block-slider__btn btn red-btn' name='two-products'>Давайте оба!</button>
       </section>
       <section class='main-block-action'>
       </section>
