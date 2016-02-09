@@ -906,10 +906,10 @@ button{
   padding-left: 39px;
 }
 
-.range-controls {
+.slider-block {
   position: relative;
   box-sizing: border-box;
-  width: 318px;
+  width: 297px;
   height: 22px;
   padding-top: 21px;
   padding-left: 20px;
@@ -917,18 +917,25 @@ button{
   margin-left: 10px;
 }
 
-.range-controls .scale {
+#slider {
+  width: 316px;
   height: 2px;
+  margin-left: -19px;
   background: rgba(255,255,255,0.3);
 }
 
-.range-controls .bar {
-  width: 80%;
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
   height: 2px;
-  background: #ffffff;
+	display: block;
+	border: 0;
+  margin-left: 10.5px;
+	overflow: hidden;
+  background: #fff;
 }
 
-.range-controls .toggle {
+.ui-slider-handle{
   position: absolute;
   top: 9px;
   left: 0;
@@ -939,13 +946,17 @@ button{
   background-repeat: no-repeat;
 }
 
-.range-controls .toggle:hover {
+.ui-slider-handle:hover {
   background-image: url("../img/togger-hvr.png");
   background-repeat: no-repeat;
 }
 
-.range-controls .toggle-max {
-  left: 252px;
+.ui-slider-handle:nth-child(1){
+  margin-left: -10.5px;
+}
+
+.ui-slider-handle:nth-child(2){
+  margin-right: -10.5px;
 }
 
 .filter-price .submit-btn{
