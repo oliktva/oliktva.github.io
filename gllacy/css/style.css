@@ -483,7 +483,7 @@ body {
   font-size: 45px;
 }
 
-.main-block-product__item:before{
+.main-block-product__item.hit:before{
   position: absolute;
   top: 0;
   left: 0;
@@ -493,4 +493,47 @@ body {
   width: 61px;
   height: 61px;
   background: url('../img/hit.png') no-repeat 0 0;
+}
+
+.main-block-shop-about{
+  height: 306px;
+  margin: 0 27px;
+  padding: 20px;
+  color: #323232;
+  background-image: url('../img/waffle-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main-block-shop-about h2{
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.main-block-shop-about__item{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 538px;
+}
+
+.main-block-shop-about__item:nth-of-type(2n+1){
+  margin-right: 26px;
+}
+
+.main-block-shop-about__item img{
+  position: absolute;
+  top: -13px;
+}
+
+.main-block-shop-about__item p{
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 70px;
+  font-size: 16px;
+  line-height: 22px;
 }
