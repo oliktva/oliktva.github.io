@@ -932,12 +932,12 @@ button{
 	border: 0;
   margin-left: 10.5px;
 	overflow: hidden;
-  background: #fff;
+  background: linear-gradient(to right, transparent 3%, #fff 3%, #fff 97%, transparent 97%);
 }
 
 .ui-slider-handle{
   position: absolute;
-  top: 9px;
+  top: 11px;
   left: 0;
   width: 21px;
   height: 23px;
@@ -950,14 +950,14 @@ button{
   background-image: url("../img/togger-hvr.png");
   background-repeat: no-repeat;
 }
-
+/*
 .ui-slider-handle:nth-child(1){
   margin-left: -10.5px;
 }
 
 .ui-slider-handle:nth-child(2){
   margin-right: -10.5px;
-}
+}*/
 
 .filter-price .submit-btn{
   box-sizing: border-box;
