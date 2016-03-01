@@ -367,6 +367,7 @@ body > input[type="radio"]{
   width: 100%;
   min-height: 350px;
   padding: 0 27px;
+  margin-top: 3px;
 }
 
 .main-block-product__item{
