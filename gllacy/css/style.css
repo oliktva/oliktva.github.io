@@ -238,7 +238,7 @@ body > input[type="radio"]{
 
 .main-block-slider-slides__item{
   display: none;
-  margin-top: 391px;
+  margin-top: 315px;
   margin-bottom: 35px;
 
   text-align: center;
@@ -249,11 +249,10 @@ body > input[type="radio"]{
 }
 
 .main-block-slider-slides__btn{
-  position: absolute;
-  bottom: -96px;
-  left: 50%;
+  display: block;
+  width: 280px;
   height: 64px;
-  margin-left: -106px;
+  margin: 35px auto;
 
   font-size: 31px;
   line-height: 62.93px;
