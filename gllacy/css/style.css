@@ -252,7 +252,7 @@ body > input[type="radio"]{
   display: block;
   width: 280px;
   height: 64px;
-  margin: 35px auto;
+  margin: 29px auto;
 
   font-size: 31px;
   line-height: 62.93px;
@@ -261,8 +261,8 @@ body > input[type="radio"]{
 
 .main-block-slider-controls{
   position: absolute;
-  top:563px;
-  left: 27px;
+  top: 170px;
+  left: 26px;
   width: 87px;
 }
 
@@ -309,7 +309,7 @@ body > input[type="radio"]{
 .main-block-action{
   position: relative;
   min-height: 230px;
-  padding: 0 27px;
+  padding: 5px 27px;
   padding-bottom: 37px;
   z-index: 10;
 }
@@ -327,7 +327,7 @@ body > input[type="radio"]{
 
 .main-block-action__item h2{
   margin: 0;
-  padding: 23px 20px;
+  padding: 26px 20px;
   color: #fff;
   font-size: 35px;
   font-weight: bold;
@@ -335,7 +335,7 @@ body > input[type="radio"]{
 
 .main-block-action__item p{
   margin: 0;
-  padding: 5px 20px;
+  padding: 2px 20px;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -349,27 +349,6 @@ body > input[type="radio"]{
 
   font-size: 18px;
   line-height: 18px;
-}
-
-.main-block-action__raspberry button{
-}
-
-.main-block-action__chocolate button{
-}
-
-.main-block-action__item button::before,
-.main-block-action__item button::after{
-  height: 46px;
-  width: 46px;
-  z-index: -1;
-}
-
-.main-block-action__item button::before{
-  left: -23px;
-}
-
-.main-block-action__item button::after{
-  right: -23px;
 }
 
 .main-block-action__raspberry{
