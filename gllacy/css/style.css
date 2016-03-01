@@ -234,9 +234,6 @@ body > input[type="radio"]{
 
 .main-block-slider{
   position: relative;
-  width: 1200px;
-  height: 200px;
-  margin: 0 auto;
 }
 
 .main-block-slider-slides__item{
