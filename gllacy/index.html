@@ -8,140 +8,61 @@
     <link rel='stylesheet' href='css/style.css'>
   </head>
   <body>
-    <header class='header-block container clearfix'>
-      <div class='header-block-logo'>
-        <img src='img/Logo.png' width=154 height=64 alt='GllacyShop'>
-      </div>
-      <nav class='header-block-main-nav'>
-        <ul>
-          <li class='header-block-main-nav__item'>
-            <a class='header-block-main-nav__link' href=''>Каталог</a>
-          </li>
-          <li class='header-block-main-nav__item'>
-            <a class='header-block-main-nav__link' href=''>Доставка и оплата</a>
-          </li>
-          <li class='header-block-main-nav__item'>
-            <a class='header-block-main-nav__link' href=''>О Компании</a>
-          </li>
-        </ul>
-      </nav>
-      <div class='header-block-user-nav'>
-        <ul>
-          <li class='header-block-user-nav__item'>
-            <button class='header-block-user-nav__btn btn search-btn' name='search'></button>
-          </li>
-          <li class='header-block-user-nav__item'>
-            <button class='header-block-user-nav__btn btn enter-btn' name='enter'>Вход</button>
-          </li>
-          <li class='header-block-user-nav__item'>
-            <button class='header-block-user-nav__btn btn basket-btn' name='basket'>Пусто</button>
-          </li>
-        </ul>
-      </div>
-      <div class='header-block-info'>
-        <span>С 10 до 20, ежедневно</span><br>
-        <span>8 812 450-25-25</span>
-      </div>
-    </header>
-    <main class='main-block container'>
-      <section class='main-block-action clearfix'>
-        <div class='main-block-action__item main-block-action__raspberry'>
-          <h2>Малинка даром!</h2>
-          <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-          <button class='red-btn btn'>Хочу варенье!</button>
+    <input type='radio' id='radiobtn-1' name='toggle' checked>
+    <input type='radio' id='radiobtn-2' name='toggle'>
+    <input type='radio' id='radiobtn-3' name='toggle'>
+    <div class='site-wrapper'>
+      <header class='header-block container clearfix'>
+        <div class='header-block-logo'>
+          <img src='img/Logo.png' width=154 height=64 alt='GllacyShop'>
         </div>
-        <div class='main-block-action__item main-block-action__chocolate'>
-          <h2>Шоколадки даром!</h2>
-          <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-          <button class='red-btn btn'>Хочу шоколадки!</button>
+        <nav class='header-block-main-nav'>
+          <ul>
+            <li class='header-block-main-nav__item'>
+              <a class='header-block-main-nav__link' href=''>Каталог</a>
+            </li>
+            <li class='header-block-main-nav__item'>
+              <a class='header-block-main-nav__link' href=''>Доставка и оплата</a>
+            </li>
+            <li class='header-block-main-nav__item'>
+              <a class='header-block-main-nav__link' href=''>О Компании</a>
+            </li>
+          </ul>
+        </nav>
+        <div class='header-block-user-nav'>
+          <ul>
+            <li class='header-block-user-nav__item'>
+              <button class='header-block-user-nav__btn btn search-btn' name='search'></button>
+            </li>
+            <li class='header-block-user-nav__item'>
+              <button class='header-block-user-nav__btn btn enter-btn' name='enter'>Вход</button>
+            </li>
+            <li class='header-block-user-nav__item'>
+              <button class='header-block-user-nav__btn btn basket-btn' name='basket'>Пусто</button>
+            </li>
+          </ul>
         </div>
-      </section>
-      <section class='main-block-product clearfix'>
-        <div class='main-block-product__item hit'>
-          <img src='img/product-1.png' width=267 height=267 alt=''>
-          <span class='main-block-product__price'><b>310&#8381;</b>/кг</span>
-          <a href='' class='main-block-product__descriprion'>
-            <span>Сливочное с апельсиновым</span><br><span>джемом и цитрусовой стружкой</span>
-          </a>
+        <div class='header-block-info'>
+          <span>С 10 до 20, ежедневно</span><br>
+          <span>8 812 450-25-25</span>
         </div>
-        <div class='main-block-product__item hit'>
-          <img src='img/product-2.png' width='267' height='267' alt=''>
-          <span class='main-block-product__price'><b>380&#8381;</b>/кг</span>
-          <a href='' class='main-block-product__descriprion'>
-            <span>Сливочно-кофейное с кусочками</span><br><span>шоколада</span>
-          </a>
-        </div>
-        <div class='main-block-product__item hit'>
-          <img src='img/product-3.png' width='267' height='267' alt=''>
-          <span class='main-block-product__price'><b>355&#8381;</b>/кг</span>
-          <a href='' class='main-block-product__descriprion'>
-            <span>Сливочно-клубничное с</span><br><span>присыпкой из белого шоколада</span>
-          </a>
-        </div>
-        <div class='main-block-product__item hit'>
-          <img src='img/product-4.png' width='267' height='267' alt=''>
-          <span class='main-block-product__price'><b>410&#8381;</b>/кг</span>
-          <a href='' class='main-block-product__descriprion'>
-            <span>Сливочное крем-брюле с</span><br><span>карамельной подливкой</span>
-          </a>
-        </div>
-      </section>
-      <section class='main-block-shop-about'>
-        <h2>Магазин Глейси  — это онлайн и офлайн магазин по продаже
-          мороженого собственного производства на развес</h2>
-        <div class='main-block-shop-about__item'>
-          <img src='img/icon-1.png' width=49 height=49 alt=''>
-          <p>Все наше мороженое изготавливается на собственном производстве,
-            с использованием современного оборудования и проверенных временем технологий.
-          </p>
-        </div>
-        <div class='main-block-shop-about__item'>
-          <img src='img/icon-2.png' width=49 height=49 alt=''>
-          <p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств
-            и компаний, с которыми нас связывает долговременное сотрудничество.
-          </p>
-        </div>
-        <div class='main-block-shop-about__item'>
-          <img src='img/icon-3.png' width=49 height=49 alt=''>
-          <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества.
-            Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
-          </p>
-        </div>
-        <div class='main-block-shop-about__item'>
-          <img src='img/icon-4.png' width=49 height=49 alt=''>
-          <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
-            которая не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.
-          </p>
-        </div>
-      </section>
-      <section class='main-block-shop-info'>
-      </section>
-      <section class='main-block-map'>
-      </section>
-      <section class='main-block-slider'>
-        <input type='radio' id='radiobtn-1' name='toggle' checked>
-        <input type='radio' id='radiobtn-2' name='toggle'>
-        <input type='radio' id='radiobtn-3' name='toggle'>
-        <div class='main-block-slider-inner'>
-          <div class='main-block-slider-slides'>
-            <div class='main-block-slider-slides__item'>
-              <img src='img/ice-cream-1-1200.png' width=647 height=584>
-              Крем-брюле и пломбир<br>
-              с малиновым джемом
-              <button class='main-block-slider__btn btn red-btn' name='two-products'>Давайте оба!</button>
-            </div>
-            <div class='main-block-slider-slides__item'>
-              <img src='img/ice-cream-2-1200.png' width=644 height=582>
-              Шоколадный пломбир<br>
-              и лимонный сорбет
-              <button class='main-block-slider__btn btn red-btn' name='two-products'>Давайте оба!</button>
-            </div>
-            <div class='main-block-slider-slides__item'>
-              <img src='img/ice-cream-3-1200.png' width=639 height=582>
-              Пломбир с помадкой<br>
-              и клубничный щербет
-              <button class='main-block-slider__btn btn red-btn' name='two-products'>Давайте оба!</button>
-            </div>
+      </header>
+      <div class='main-block-slider'>
+        <div class='main-block-slider-slides'>
+          <div class='main-block-slider-slides__item' id='slide1'>
+            Крем-брюле и пломбир<br>
+            с малиновым джемом
+            <a class='main-block-slider-slides__btn btn red-btn' href='#' name='two-products'>Давайте оба!</a>
+          </div>
+          <div class='main-block-slider-slides__item' id='slide2'>
+            Шоколадный пломбир<br>
+            и лимонный сорбет
+            <a class='main-block-slider-slides__btn btn red-btn' href='#' name='two-products'>Давайте оба!</a>
+          </div>
+          <div class='main-block-slider-slides__item' id='slide3'>
+            Пломбир с помадкой<br>
+            и клубничный щербет
+            <a class='main-block-slider-slides__btn btn red-btn' href='#' name='two-products'>Давайте оба!</a>
           </div>
         </div>
         <div class='main-block-slider-controls clearfix'>
@@ -149,8 +70,84 @@
           <label for='radiobtn-2'></label>
           <label for='radiobtn-3'></label>
         </div>
-      </section>
-    </main>
+      </div>
+      <main class='main-block container'>
+        <section class='main-block-action clearfix'>
+          <div class='main-block-action__item main-block-action__raspberry'>
+            <h2>Малинка даром!</h2>
+            <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+            <button class='red-btn btn'>Хочу варенье!</button>
+          </div>
+          <div class='main-block-action__item main-block-action__chocolate'>
+            <h2>Шоколадки даром!</h2>
+            <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+            <button class='red-btn btn'>Хочу шоколадки!</button>
+          </div>
+        </section>
+        <section class='main-block-product clearfix'>
+          <div class='main-block-product__item hit'>
+            <img src='img/product-1.png' width=267 height=267 alt=''>
+            <span class='main-block-product__price'><b>310&#8381;</b>/кг</span>
+            <a href='' class='main-block-product__descriprion'>
+              <span>Сливочное с апельсиновым</span><br><span>джемом и цитрусовой стружкой</span>
+            </a>
+          </div>
+          <div class='main-block-product__item hit'>
+            <img src='img/product-2.png' width='267' height='267' alt=''>
+            <span class='main-block-product__price'><b>380&#8381;</b>/кг</span>
+            <a href='' class='main-block-product__descriprion'>
+              <span>Сливочно-кофейное с кусочками</span><br><span>шоколада</span>
+            </a>
+          </div>
+          <div class='main-block-product__item hit'>
+            <img src='img/product-3.png' width='267' height='267' alt=''>
+            <span class='main-block-product__price'><b>355&#8381;</b>/кг</span>
+            <a href='' class='main-block-product__descriprion'>
+              <span>Сливочно-клубничное с</span><br><span>присыпкой из белого шоколада</span>
+            </a>
+          </div>
+          <div class='main-block-product__item hit'>
+            <img src='img/product-4.png' width='267' height='267' alt=''>
+            <span class='main-block-product__price'><b>410&#8381;</b>/кг</span>
+            <a href='' class='main-block-product__descriprion'>
+              <span>Сливочное крем-брюле с</span><br><span>карамельной подливкой</span>
+            </a>
+          </div>
+        </section>
+        <section class='main-block-shop-about'>
+          <h2>Магазин Глейси — это онлайн и офлайн магазин по продаже
+            мороженого собственного производства на развес</h2>
+          <div class='main-block-shop-about__item'>
+            <img src='img/icon-1.png' width=49 height=49 alt=''>
+            <p>Все наше мороженое изготавливается на собственном производстве,
+              с использованием современного оборудования и проверенных временем технологий.
+            </p>
+          </div>
+          <div class='main-block-shop-about__item'>
+            <img src='img/icon-2.png' width=49 height=49 alt=''>
+            <p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств
+              и компаний, с которыми нас связывает долговременное сотрудничество.
+            </p>
+          </div>
+          <div class='main-block-shop-about__item'>
+            <img src='img/icon-3.png' width=49 height=49 alt=''>
+            <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества.
+              Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
+            </p>
+          </div>
+          <div class='main-block-shop-about__item'>
+            <img src='img/icon-4.png' width=49 height=49 alt=''>
+            <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
+              которая не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.
+            </p>
+          </div>
+        </section>
+        <section class='main-block-shop-info'>
+        </section>
+        <section class='main-block-map'>
+        </section>
+      </main>
+    </div>
     <footer class='footer-block container'>
       <div class='footer-block-social'>
       </div>
