@@ -236,6 +236,25 @@ body > input[type="radio"]{
   position: relative;
 }
 
+/* Псевдоэлементы с изображениями нужны только для предзагрузки картинок, чтобы они уже были в кеше в момент переключения слайдов и сразу отображались */
+
+.main-block-slider:before,
+.main-block-slider:after {
+  content: "";
+
+  visibility: hidden;
+}
+
+.main-block-slider:before,
+.main-block-slider:after {
+  background-image: url("../img/ice-cream-bg-1-1200.png");
+}
+
+.main-block-sliderr:after {
+  background-image: url("../img/ice-cream-bg-2-1200.png");
+}
+
+
 .main-block-slider-slides__item{
   display: none;
   margin-top: 315px;
@@ -314,14 +333,16 @@ body > input[type="radio"]{
   z-index: 10;
 }
 
-.main-block-action__item{
+.main-block-action__item,
+.main-block-shop-info__item{
   position: relative;
   float: left;
   width: 560px;
   height: 230px;
 }
 
-.main-block-action__item:nth-child(2n+1){
+.main-block-action__item:nth-child(2n+1),
+.main-block-shop-info__item:nth-child(2n+1){
   margin-right: 26px;
 }
 
@@ -472,4 +493,18 @@ body > input[type="radio"]{
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
+}
+
+
+/*////////////SHOP INFO/////////////////*/
+.main-block-shop-info{
+  margin: 0 27px;
+}
+
+.main-block-shop-info__form--news{
+  background: url('../img/strawberry-bg.png') no-repeat;
+}
+
+.main-block-shop-info__form--email{
+  background: url('../img/email-bg.png') no-repeat;
 }
