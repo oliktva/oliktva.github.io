@@ -341,14 +341,17 @@ body > input[type="radio"]{
   font-weight: bold;
 }
 
-.main-block-action__item button{
+.main-block-action__btn {
   position: absolute;
-  bottom: 26px;
-  right: 35px;
+  bottom: 22px;
+  right: 24px;
   height: 46px;
+  padding: 0 23px;
 
   font-size: 18px;
-  line-height: 18px;
+  line-height: 45px;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
 .main-block-action__raspberry{
