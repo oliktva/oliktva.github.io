@@ -522,19 +522,19 @@ body > input[type="radio"]{
 
 .main-block-shop-info__item{
   box-sizing: border-box;
-  padding: 25px 17px;
 }
 
-.main-block-shop-info__form--news{
+.main-block-shop-info--news{
+  padding: 22px 20px;
   background: url('../img/strawberry-bg.png') no-repeat;
 }
 
-.main-block-shop-info__form--news label{
+.main-block-shop-info--news label{
   font-size: 16px;
   font-weight: 500;
 }
 
-.main-block-shop-info__form--news a{
+.main-block-shop-info--news a{
   display: block;
   margin-top: 5px;
   font-size: 24px;
@@ -543,17 +543,22 @@ body > input[type="radio"]{
   color: #353535;
 }
 
-.main-block-shop-info__form--email{
+.main-block-shop-info--email{
+  padding: 16px 26px;
   background: url('../img/email-bg.png') no-repeat;
 }
 
-.main-block-shop-info__form--email p{
+.main-block-shop-info--email p{
   font-size: 16px;
   line-height: 22px;
 }
 
-.main-block-shop-info__form--email-input {
+.main-block-shop-info--email-input {
   width: 370px;
   height: 43px;
-  
+}
+
+.main-block-shop-info--btn {
+  padding: 0 25px;
+  height: 45px;
 }
