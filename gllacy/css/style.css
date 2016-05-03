@@ -545,17 +545,22 @@ body > input[type="radio"]{
 
 .main-block-shop-info--email{
   padding: 16px 26px;
+  padding-right: 20px;
   background: url('../img/email-bg.png') no-repeat;
 }
 
 .main-block-shop-info--email p{
+  margin-top: 17px;
+  margin-bottom: 35px;
   font-size: 16px;
   line-height: 22px;
 }
 
 .main-block-shop-info--email-input {
-  width: 370px;
-  height: 43px;
+  width: 364px;
+  height: 40px;
+  margin: 0;
+  margin-right: 7px;
 }
 
 .main-block-shop-info--btn {
