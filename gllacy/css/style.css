@@ -557,10 +557,11 @@ body > input[type="radio"]{
 }
 
 input.main-block-shop-info--email-input {
-  width: 364px;
+  width: 355px;
   height: 40px;
   margin: 0;
   margin-right: 9px;
+  padding-left: 9px;
 }
 
 .main-block-shop-info--btn {
