@@ -559,8 +559,19 @@ body > input[type="radio"]{
 input.main-block-shop-info--email-input {
   width: 355px;
   height: 40px;
-  margin: 0;
   margin-right: 9px;
+  padding-left: 9px;
+}
+
+input.main-block-shop-info--email-input:hover{
+  width: 353px;
+  margin-right: 10px;
+  padding-left: 9px;
+}
+
+input.main-block-shop-info--email-input:focus{
+  width: 353px;
+  margin-right: 10px;
   padding-left: 9px;
 }
 
