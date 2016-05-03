@@ -13,6 +13,24 @@ body {
   background-color: #849d8f;
 }
 
+input[type='text']{
+  margin: 1px;
+  border: 1px solid #d3d3d2;
+  border-radius: 4px;
+}
+
+input[type='text']:hover{
+  margin: 0;
+  border: 2px solid #c7c6c5;
+  outline: none;
+}
+
+input[type='text']:focus{
+  margin: 0;
+  border: 2px solid #8fbdec;
+  outline: none;
+}
+
 /* Разметка */
 .clearfix::after {
   content: '';
@@ -532,4 +550,10 @@ body > input[type="radio"]{
 .main-block-shop-info__form--email p{
   font-size: 16px;
   line-height: 22px;
+}
+
+.main-block-shop-info__form--email-input {
+  width: 370px;
+  height: 43px;
+  
 }
