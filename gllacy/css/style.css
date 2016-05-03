@@ -556,14 +556,14 @@ body > input[type="radio"]{
   line-height: 22px;
 }
 
-.main-block-shop-info--email-input {
+input.main-block-shop-info--email-input {
   width: 364px;
   height: 40px;
   margin: 0;
-  margin-right: 7px;
+  margin-right: 9px;
 }
 
 .main-block-shop-info--btn {
-  padding: 0 25px;
+  padding: 0 23px;
   height: 45px;
 }
