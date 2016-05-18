@@ -595,7 +595,7 @@ position: relative;
   box-sizing: border-box;
   width: 300px;
   min-height: 305px;
-  padding: 30px 25px;
+  padding: 30px 24px;
   border-radius: 15px;
   background-color: #fcfcfc;
 }
@@ -621,8 +621,8 @@ position: relative;
 .main-block-map__btn{
   height: 45px;
   margin-top: 4px;
-  margin-left: 1px;
-  padding: 0 28px;
+  margin-right: -1px;
+  padding: 0 33px;
   font-size: 17px;
   line-height: 24px;
 }
