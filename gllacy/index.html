@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel='stylesheet' href='css/style.css'>
+    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
   </head>
   <body>
     <input type='radio' id='radiobtn-1' name='toggle' checked>
@@ -161,16 +162,34 @@
           </div>
         </section>
         <section class='main-block-map'>
+          <div class='main-block-map__item' id="YMapsID" style="width:1200px;height:430px"></div>
+          <div class='main-block-map__address'>
+            <p>Адрес главного офиса и<br>офлайн магазина:<br><b>ул. Большая Конюшенная<br>19/8, Санкт-Петербург</b>
+            </p>
+            <p>Для заказов по телефону:<br><b>8 812 450-25-25</b><br>(с 10 до 20 ежедневно)
+            </p>
+            <button class='main-block-map__btn red-btn btn'name='feedback'>Форма обратной связи</button>
+          </div>
         </section>
       </main>
+      <footer class='footer-block container'>
+        <div class='footer-block-item footer-block-social'>
+          <div class='footer-block-social__tw'></div>
+          <div class='footer-block-social__inst'></div>
+          <div class='footer-block-social__fb'></div>
+          <div class='footer-block-social__vk'></div>
+        </div>
+        <div class='footer-block-item footer-block-about'>
+          <a href=''>Для поставщиков</a>
+          <a href=''>Наши документы</a>
+          <a href=''>О производстве</a>
+          <a href=''>Экологические стандарты</a>
+        </div>
+        <div class='footer-block-item footer-block-copyright'>
+          <span>Сделано в <a href='https://htmlacademy.ru/'>HTML Academy</a>
+        </div>
+      </footer>
     </div>
-    <footer class='footer-block container'>
-      <div class='footer-block-social'>
-      </div>
-      <div class='footer-block-about'>
-      </div>
-      <div class='footer-block-copyright'>
-      </div>
-    </footer>
+    <script src="script/script.js"></script>
   </body>
 </html>
