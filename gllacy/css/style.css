@@ -518,7 +518,7 @@ body > input[type="radio"]{
 .main-block-shop-info{
   min-height: 220px;
   margin: 0 27px;
-  padding-bottom: 35px;
+  padding-bottom: 39px;
   color: #5a5a5a;
 }
 
@@ -588,15 +588,15 @@ position: relative;
 
 .main-block-map__address {
   position: absolute;
-  top: 60px;
-  right: 25px;
+  top: 64px;
+  right: 29px;
   z-index: 10;
 
   box-sizing: border-box;
   width: 300px;
   min-height: 305px;
   padding: 30px 25px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #fcfcfc;
 }
 
@@ -614,7 +614,9 @@ position: relative;
 
 .main-block-map__btn{
   height: 45px;
-  padding: 0 25px;
+  margin-top: 9px;
+  padding: 0 0;
+  width: initial;
 }
 
 .footer-block {
