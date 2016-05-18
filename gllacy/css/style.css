@@ -610,20 +610,21 @@ position: relative;
   font-size: 18px;
 }
 
-.main-block-map__address b:first-of-type {
+.main-block-map__address p:first-of-type b{
   line-height: 24px;
 }
 
-.main-block-map__address b:last-of-type {
+.main-block-map__address p:last-of-type b{
   line-height: 22px;
 }
 
 .main-block-map__btn{
   height: 45px;
-  margin-top: 9px;
-  padding: 0 27px;
-  font-size: 17px;
+  margin-top: 12px;
+  padding: 0 25px;
+  font-size: 18px;
   line-height: 24px;
+  letter-spacing: 0.1px;
 }
 
 .footer-block {
