@@ -17,7 +17,7 @@ var cheerio = require("gulp-cheerio");
 var replace = require("gulp-replace");
 
 gulp.task("style", function() {
-  gulp.src("css/style.css")
+  gulp.src("style/style.css")
     .pipe(plumber())
     .pipe(postcss([
       autoprefixer({browsers: [
@@ -31,10 +31,10 @@ gulp.task("style", function() {
         sort: true
       })
     ]))
-    .pipe(gulp.dest("css"))
+    .pipe(gulp.dest("style"))
     .pipe(minify())
     .pipe(rename("style.min.css"))
-    .pipe(gulp.dest("css"))
+    .pipe(gulp.dest("style"))
     .pipe(server.reload({stream: true}));
 });
 

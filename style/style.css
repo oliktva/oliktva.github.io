@@ -338,121 +338,8 @@ ul {
   display: none;
 }
 
-@media (max-width: 767px) {
-  .main-nav {
-    position: relative;
-  }
-
-  .main-nav__list:not(.no-js) {
-    position: absolute;
-    top: 55px;
-    left: 0;
-    width: 100%;
-    background-color: #f7f7f7;
-    z-index: 1000;
-  }
-
-  .main-nav__list--hidden {
-    display: none;
-  }
-
-  .main-nav__list--hidden.no-js {
-    display: block;
-  }
-
-  .hamburger.no-js {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-    height: 16px;
-    width: 20px;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-  }
-
-  .main-nav__logo {
-    position: relative;
-  }
-
-  .hamburger {
-    position: absolute;
-    top: calc(50% - 7px);
-    right: 15px;
-    background-color: transparent;
-    border: none;
-    border-radius: none;
-  }
-
-  .icon-hamburger {
-    position: absolute;
-    top: 6px;
-    display: block;
-    height: 2px;
-    width: 20px;
-    background-color: #000;
-    transition-duration: 0.3s;
-  }
-
-  .icon-hamburger::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    right: 0;
-    display: block;
-    height: 2px;
-    width: 20px;
-    background-color: #000;
-    transition-duration: 0.3s;
-  }
-
-.icon-hamburger::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    right: 0;
-    display: block;
-    height: 2px;
-    width: 20px;
-    background-color: #000;
-    transition-duration: 0.5s;
-  }
-
-  .icon-hamburger.active {
-    background-color: transparent;
-  }
-
-  .icon-hamburger.active::before {
-    top: 0;
-    width: 20px;
-    transition-duration: 0.5s;
-    transform: translateY(0) rotate(45deg);
-  }
-
-  .icon-hamburger.active::after {
-    top: 0;
-    width: 20px;
-    transition-duration: 0.5s;
-    transform: translateY(0) rotate(-45deg);
-  }
-
-  .main-nav__list {
-    animation: menuOpen 0.5s linear;
-  }
-
-  @keyframes menuOpen{
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-}
-
 @media (min-width: 768px) {
+
   body {
     font-size: 16px;
   }
@@ -502,6 +389,7 @@ ul {
 
   .main-nav__link {
     justify-content: flex-start;
+    -ms-grid-row-align: center;
     align-items: center;
   }
 
@@ -616,6 +504,7 @@ ul {
 }
 
 @media (min-width: 1150px) {
+
   .main-nav {
     min-width: 1150px;
     max-width: 1450px;
@@ -632,7 +521,7 @@ ul {
   }
 
   .main-nav__list {
-   width: 70%;
+    width: 70%;
   }
 
   .container {
@@ -665,5 +554,122 @@ ul {
 
   .contact-form {
     width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .main-nav {
+    position: relative;
+  }
+
+  .main-nav__list:not(.no-js) {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    z-index: 1000;
+  }
+
+  .main-nav__list--hidden {
+    display: none;
+  }
+
+  .main-nav__list--hidden.no-js {
+    display: block;
+  }
+
+  .hamburger.no-js {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    height: 16px;
+    width: 20px;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .main-nav__logo {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+  }
+
+  .icon-hamburger {
+    position: absolute;
+    top: 6px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    transition-duration: 0.3s;
+  }
+
+  .icon-hamburger::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    transition-duration: 0.3s;
+  }
+
+  .icon-hamburger::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    transition-duration: 0.5s;
+  }
+
+  .icon-hamburger.active {
+    background-color: transparent;
+  }
+
+  .icon-hamburger.active::before {
+    top: 0;
+    width: 20px;
+    transition-duration: 0.5s;
+    transform: translateY(0) rotate(45deg);
+  }
+
+  .icon-hamburger.active::after {
+    top: 0;
+    width: 20px;
+    transition-duration: 0.5s;
+    transform: translateY(0) rotate(-45deg);
+  }
+
+  .main-nav__list {
+    animation: menuOpen 0.5s linear;
+  }
+
+  @keyframes menuOpen {
+
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 }
