@@ -131,7 +131,7 @@ ul {
 
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
 
@@ -593,6 +593,7 @@ ul {
   }
 
   .contact-form {
+    margin: 40px auto;
     width: 50%;
   }
 

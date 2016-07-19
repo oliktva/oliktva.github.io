@@ -12,3 +12,12 @@
       navList.classList.toggle("main-nav__list--hidden");
       iconMenu.classList.toggle("active");
     });
+
+    jQuery(document).ready(function() {
+      jQuery("a.scrollto").click(function () {
+        elementClick = jQuery(this).attr("href")
+        destination = jQuery(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+        return false;
+      });
+    });
