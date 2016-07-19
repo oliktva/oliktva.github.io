@@ -17,6 +17,7 @@
     navLink.addEventListener("click", function(event) {
        event.preventDefault();
        navList.classList.toggle("main-nav__list--hidden");
+       iconMenu.classList.toggle("active");
      });
 
     jQuery(document).ready(function() {
