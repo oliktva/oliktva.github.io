@@ -1,6 +1,7 @@
     var nojsList = document.querySelectorAll(".no-js");
     var openMenu = document.querySelector(".hamburger");
     var navList = document.querySelector(".main-nav__list");
+    var navLink = document.querySelector(".main-nav__link");
     var iconMenu = openMenu.querySelector(".icon-hamburger");
 
     for (var i = 0; i < nojsList.length; i++) {
@@ -12,6 +13,11 @@
       navList.classList.toggle("main-nav__list--hidden");
       iconMenu.classList.toggle("active");
     });
+
+    navLink.addEventListener("click", function(event) {
+       event.preventDefault();
+       navList.classList.toggle("main-nav__list--hidden");
+     });
 
     jQuery(document).ready(function() {
       jQuery("a.scrollto").click(function () {

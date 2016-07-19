@@ -339,6 +339,19 @@ ul {
 }
 
 @media (max-width: 767px) {
+  .main-nav {
+    position: relative;
+  }
+
+  .main-nav__list:not(.no-js) {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    z-index: 1000;
+  }
+
   .main-nav__list--hidden {
     display: none;
   }
@@ -398,7 +411,7 @@ ul {
 .icon-hamburger::after {
     content: "";
     position: absolute;
-    top: 6px;
+    top: 5px;
     right: 0;
     display: block;
     height: 2px;
