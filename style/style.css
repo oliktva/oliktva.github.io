@@ -261,7 +261,7 @@ ul {
   transition: 0.5s;
 }
 
-.contact-form__label span {
+.contact-form__label {
   display: block;
   padding-bottom: 10px;
 }
@@ -299,7 +299,7 @@ ul {
 .portfolio-item {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 50vh;
 }
 
 .portfolio-item__wrapper {
@@ -499,7 +499,7 @@ ul {
   }
 
   .contact-form__textarea {
-    height: 15%;
+    height: 20%;
   }
 }
 
