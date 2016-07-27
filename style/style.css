@@ -251,6 +251,12 @@ ul {
   height: 30%;
 }
 
+.contact-form__input:required:valid,
+.contact-form__textarea:required:valid {
+  outline: none;
+  border-color: #00961b;
+}
+
 .contact-form__input:hover, .contact-form__textarea:hover {
   border-color: #505050;
   transition: 0.5s;
@@ -443,6 +449,7 @@ ul {
 
   .info-wrapper {
     display: block;
+    width: 100%;
     margin: 40px 0;
     order: 3;
   }
