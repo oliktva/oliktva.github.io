@@ -644,7 +644,7 @@ ul {
   .icon-hamburger::after {
     content: "";
     position: absolute;
-    top: 5px;
+    top: 6px;
     right: 0;
     display: block;
     height: 2px;
