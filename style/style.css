@@ -370,9 +370,15 @@ ul {
     font-size: 22px;
   }
 
+  .main-nav__link,
+  .main-nav__logo-link {
+    transition: 0.5s;
+  }
+
   .main-nav__logo-link:hover,
   .main-nav__link:hover {
     color: #999;
+    transition: 0.5s;
   }
 
   .main-nav__logo-link:active,
