@@ -617,7 +617,7 @@ ul {
 
   .icon-hamburger {
     position: absolute;
-    top: calc(50% - 2px);
+    top: calc(50% - 1px);
     left: 15px;
     display: block;
     height: 2px;
