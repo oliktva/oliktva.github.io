@@ -131,7 +131,6 @@ ul {
 
 .container {
   width: 100%;
-  min-height: 100vh;
   padding: 20px;
 }
 
@@ -598,10 +597,16 @@ ul {
   }
 
   .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: block;
-    height: 16px;
-    width: 20px;
+    height: 100%;
+    width: 50px;
     padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: none;
     cursor: pointer;
     outline: none;
   }
@@ -610,18 +615,10 @@ ul {
     position: relative;
   }
 
-  .hamburger {
-    position: absolute;
-    top: calc(50% - 7px);
-    right: 15px;
-    background-color: transparent;
-    border: none;
-    border-radius: none;
-  }
-
   .icon-hamburger {
     position: absolute;
-    top: 6px;
+    top: calc(50% - 2px);
+    left: 15px;
     display: block;
     height: 2px;
     width: 20px;
