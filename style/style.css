@@ -63,7 +63,6 @@ ul {
 }
 
 .main-nav {
-  min-width: 300px;
   width: 100%;
   margin: 0 auto;
 }
@@ -287,6 +286,15 @@ ul {
   border-color: #505050;
   color: #505050;
   opacity: 0.5;
+}
+
+
+
+.contact-form__btn:disabled,
+.contact-form__btn:disabled:hover {
+  opacity: 0.3;
+  border-color: #999;
+  color: #999;
 }
 
 .portfolio {
