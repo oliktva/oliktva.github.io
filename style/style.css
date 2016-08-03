@@ -478,7 +478,7 @@ ul {
     flex-direction: column;
     align-items: center;
     width: 45%;
-    padding: 3% 0;
+    padding: 1.5em 0;
   }
 
   .info-wrapper__item:before {
