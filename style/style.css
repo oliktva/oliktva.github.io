@@ -204,8 +204,8 @@ ul {
 .about__img-wrapper img {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 200px;
+  left: -62px;
+  width: 330px;
 }
 
 .portfolio {
