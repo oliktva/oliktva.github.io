@@ -352,6 +352,10 @@ ul {
   display: none;
 }
 
+.about__descr-item {
+  padding-bottom: 1em;
+}
+
 @media (min-width: 768px) {
 
   body {
@@ -459,10 +463,6 @@ ul {
     width: 50%;
     margin: 20px 0;
     font-size: 16px;
-  }
-
-  .about__descr-item {
-    padding-bottom: 1em;
   }
 
   .info-wrapper {
